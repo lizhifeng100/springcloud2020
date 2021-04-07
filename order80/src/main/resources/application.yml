@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: order80
+
+server:
+  port: 80
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7003.com:7003/eureka/ , http://eureka7004.com:7004/eureka/
